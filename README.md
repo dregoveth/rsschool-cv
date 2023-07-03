@@ -1,1 +1,1 @@
-https://dregoveth.github.io/rsschool-cv/
+https://dregoveth.github.io/rsschool-cv/index.html
