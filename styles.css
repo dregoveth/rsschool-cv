@@ -1,6 +1,6 @@
 * {
   box-sizing: border-box;
-  border: 1px solid red;
+  /*border: 1px solid red;*/
   margin: 0;
   padding: 0;
 }
@@ -25,7 +25,7 @@ body {
 }
 
 .container {
-  border: 5px solid yellowgreen;
+  /*border: 5px solid yellowgreen;*/
   margin: 0 20px;
 }
 
@@ -66,6 +66,7 @@ h2 {
   font-size: 24px;
   font-weight: 600;
   color: rgb(0, 0, 0);
+  padding: 10px 0 10px;
 }
 
 .avatar {
