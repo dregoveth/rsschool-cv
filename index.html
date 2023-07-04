@@ -30,52 +30,64 @@
       <div class="main-container container">
         <section class="section-profile" id="profile">
             <img class="avatar" src="./assets/avatar-3.png" alt="avatar">
-            <div>
-              <div>Alexei Sivtsov</div> 
-              <div>Junior Frontend Developer</div>
+            <div class="section-profile-text">
+              <h1>Alexei Sivtsov</h1>
+              <h2>Junior Frontend Developer</h2>
             </div>
         </section>
         <section class="section" id="contacts">
-            <div>contact information</div>
-            <div>Phone: +375 44 790 09 71</div> 
-            <div>E-mail: belarus.gomel@gmail.com</div>
-            <div>Telegram: @fairyboy</div> 
-            <div>LinkedIn</div>
-            <div>Behance<div>
+            <h2>contacts</h2>
+            <div>phone: +375 67 890 12 34</div> 
+            <div>e-mail: belarus.gomel@gmail.com</div>
+            <div>telegram: @fairyboy</div> 
+            <a href="https://www.linkedin.com/in/alexei-sivtsov/" class="contact-link">linkedin</a>
         </section>
         <section class="section" id="bio">
-            <div>bio</div>
+            <h2>bio</h2>
             <div>My name is Alexei Sivtsov and I'm going to become frontend developer. My interest is in creating websites and
             applications, that are easy and comfortable to use. My goal is to get a job
             that would let me work from anywhere in the world.</div> 
         </section>
         <section class="section" id="skills">
-            <div>skills</div>
+            <h2>skills</h2>
             <div>HTML5, CSS3</div>
             <div>JavaScript</div> 
             <div>Basics Git, GitHub, VS Code
             <div>Adobe Photoshop, Figma</div>
         </section>
         <section class="section" id="code">
-            <div>code example</div> 
-            <span>const dataReverse = function(data){
-              if (data.length===0) return []
-              const arrayBytes = [];
-              const tam = data.length / 8;
-              for (var i = 0; i < tam; i++){
-                arrayBytes.push(data.splice(0,8));
-              }
-              return arrayBytes.reverse().join().split(',').map(v=>v*1);
-            }</span>
+            <h2>code</h2>
+            <pre>
+<code class="section-code-text">const dataReverse = function(data){
+if (data.length===0) return []
+const arrayBytes = [];
+const tam = data.length / 8;
+for (var i = 0; i < tam; i++){
+arrayBytes.push(data.splice(0,8));
+}
+return arrayBytes.reverse().join().split(',').map(v=>v*1);
+}
+              </code>
+            </pre>
         </section>
         <section class="section" id="courses">
-            <div>courses</div>
+            <h2>courses</h2>
             <div>HTML and CSS Tutorials on the w3schools (completed)</div>
             <div>JavaScript Manual on learnjavascript.ru (in progress)</div> 
             <div>RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)</div>
         </section>
+        <section class="section" id="projects">
+          <h2>projects</h2>
+          <div>HTML and CSS Tutorials on the w3schools (completed)</div>
+          <div>JavaScript Manual on learnjavascript.ru (in progress)</div> 
+          <div>RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)</div>
+      </section>
+      <section class="section" id="education">
+        <h2>education</h2>
+        <div>Belarusian State University of Transport</div>
+    </section>
         <section class="section" id="languages">
-            <div>languages</div>
+            <h2>languages</h2>
             <div>English - Upper-intermediate (according to the online test at Streamline str.by)</div>
             <div>Russian - Native</div>
             <div>French - Basic</div>
