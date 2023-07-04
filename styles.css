@@ -19,14 +19,14 @@ body {
   flex-direction: column;
   justify-content: space-between;
   font-family: "Roboto", sans-serif;
-  max-width: 1440px;
+  min-height: 100vh;
   margin: 0 auto;
 }
 
-div {
-}
-
 .container {
+  max-width: 1440px;
+  margin: 0 10px;
+  border: 5px solid yellowgreen;
 }
 
 .main-container {
@@ -47,7 +47,6 @@ nav {
 
 .nav-list {
   list-style: none;
-
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -76,7 +75,6 @@ footer {
   flex-direction: row;
   justify-content: space-between;
   padding: 10px 0px 10px;
-  background-color: rgb(255, 255, 255);
   max-height: 68px;
 }
 
@@ -117,5 +115,78 @@ footer {
 @media (max-width: 768px) {
   .section {
     width: 100%;
+  }
+}
+
+.wrapper {
+  height: 100%;
+  width: 100%;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  /*position: absolute;*/
+  background: linear-gradient(
+    124deg,
+    #ff220080,
+    #e81d1d78,
+    #e8b91d7f,
+    #e5e81d81,
+    #1de83f81,
+    #1ddee87e,
+    #2b1de883,
+    #df00f381,
+    #df00f382
+  );
+  background-size: 1800% 1800%;
+
+  -webkit-animation: rainbow 18s ease infinite;
+  -z-animation: rainbow 18s ease infinite;
+  -o-animation: rainbow 18s ease infinite;
+  animation: rainbow 18s ease infinite;
+}
+
+@-webkit-keyframes rainbow {
+  0% {
+    background-position: 0% 82%;
+  }
+  50% {
+    background-position: 100% 19%;
+  }
+  100% {
+    background-position: 0% 82%;
+  }
+}
+@-moz-keyframes rainbow {
+  0% {
+    background-position: 0% 82%;
+  }
+  50% {
+    background-position: 100% 19%;
+  }
+  100% {
+    background-position: 0% 82%;
+  }
+}
+@-o-keyframes rainbow {
+  0% {
+    background-position: 0% 82%;
+  }
+  50% {
+    background-position: 100% 19%;
+  }
+  100% {
+    background-position: 0% 82%;
+  }
+}
+@keyframes rainbow {
+  0% {
+    background-position: 0% 82%;
+  }
+  50% {
+    background-position: 100% 19%;
+  }
+  100% {
+    background-position: 0% 82%;
   }
 }
