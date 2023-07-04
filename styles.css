@@ -1,1 +1,192 @@
-empty
+* {
+  box-sizing: border-box;
+  border: 1px solid red;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+header {
+  padding: 20px 0px 20px;
+  max-height: 68px;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-family: "Roboto", sans-serif;
+  min-height: 100vh;
+  margin: 0 auto;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 10px;
+  border: 5px solid yellowgreen;
+}
+
+.main-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.section {
+  width: 50%;
+}
+
+.section-profile {
+  width: 100%;
+}
+
+nav {
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-item {
+  transition: 0.3s;
+}
+
+.nav-link {
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  color: rgb(0, 0, 0);
+  transition: all 0.2s ease;
+}
+
+.nav-link:hover {
+  color: rgb(255, 255, 255);
+  text-shadow: 2px 4px 12px rgb(0, 0, 0);
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px 0px 10px;
+  max-height: 68px;
+}
+
+.footer-year {
+  line-height: 50px;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  color: rgb(0, 0, 0);
+}
+
+.footer-github {
+  text-decoration: none;
+  line-height: 50px;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  color: rgb(0, 0, 0);
+  transition: all 0.3s ease;
+}
+
+.footer-github:hover {
+  color: rgb(255, 255, 255);
+  text-shadow: 2px 4px 12px rgb(0, 0, 0);
+}
+
+.footer-logo {
+  width: 120px;
+  height: 45px;
+  transition: all 0.3s ease;
+}
+
+.footer-logo:hover {
+  fill: white;
+  filter: drop-shadow(4px 8px 6px rgb(0 0 0 / 0.4));
+}
+
+@media (max-width: 768px) {
+  .section {
+    width: 100%;
+  }
+}
+
+.wrapper {
+  height: 100%;
+  width: 100%;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  /*position: absolute;*/
+  background: linear-gradient(
+    124deg,
+    #ff220080,
+    #e81d1d78,
+    #e8b91d7f,
+    #e5e81d81,
+    #1de83f81,
+    #1ddee87e,
+    #2b1de883,
+    #df00f381,
+    #df00f382
+  );
+  background-size: 1800% 1800%;
+
+  -webkit-animation: rainbow 18s ease infinite;
+  -z-animation: rainbow 18s ease infinite;
+  -o-animation: rainbow 18s ease infinite;
+  animation: rainbow 18s ease infinite;
+}
+
+@-webkit-keyframes rainbow {
+  0% {
+    background-position: 0% 82%;
+  }
+  50% {
+    background-position: 100% 19%;
+  }
+  100% {
+    background-position: 0% 82%;
+  }
+}
+@-moz-keyframes rainbow {
+  0% {
+    background-position: 0% 82%;
+  }
+  50% {
+    background-position: 100% 19%;
+  }
+  100% {
+    background-position: 0% 82%;
+  }
+}
+@-o-keyframes rainbow {
+  0% {
+    background-position: 0% 82%;
+  }
+  50% {
+    background-position: 100% 19%;
+  }
+  100% {
+    background-position: 0% 82%;
+  }
+}
+@keyframes rainbow {
+  0% {
+    background-position: 0% 82%;
+  }
+  50% {
+    background-position: 100% 19%;
+  }
+  100% {
+    background-position: 0% 82%;
+  }
+}
